@@ -52,9 +52,9 @@ export default function CodeEditor() {
       >
         <div className="relative">
           <div className="absolute top-2 left-2 z-10 mt-1 sm:left-3 sm:space-x-2">
-            <span className="h-2 w-2 rounded-full bg-red-500 sm:h-[9px] sm:w-[9px]"></span>
-            <span className="h-2 w-2 rounded-full bg-yellow-500 sm:h-[9px] sm:w-[9px]"></span>
-            <span className="h-2 w-2 rounded-full bg-green-500 sm:h-[9px] sm:w-[9px]"></span>
+            <span className="size-2 rounded-full bg-red-500 sm:h-2.25 sm:w-2.25"></span>
+            <span className="size-2 rounded-full bg-yellow-500 sm:h-2.25 sm:w-2.25"></span>
+            <span className="size-2 rounded-full bg-green-500 sm:h-2.25 sm:w-2.25"></span>
           </div>
 
           <SyntaxHighlighter

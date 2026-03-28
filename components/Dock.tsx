@@ -61,7 +61,7 @@ export default function Dock() {
   const handleCopyImage = async () => {
     const node = getPreviewRef()
     if (node) {
-      try {
+      try { 
         await copyAsImage(node)
         setIsCopied(true)
         toast.success('Image copied to clipboard')
@@ -171,7 +171,7 @@ export default function Dock() {
                   setLanguage(value)
                 }}
               >
-                <SelectTrigger className="h-8 w-28 border-gray-300 bg-white text-xs sm:h-6 sm:w-[100px] sm:text-xs dark:border-gray-600 dark:bg-gray-700">
+                <SelectTrigger className="h-8 w-28 border-gray-300 bg-white text-xs sm:h-6 sm:w-25 sm:text-xs dark:border-gray-600 dark:bg-gray-700">
                   <SelectValue placeholder="JavaScript" />
                 </SelectTrigger>
                 <SelectContent className="border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
